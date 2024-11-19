@@ -21,6 +21,7 @@ Platforms:
 Net MAUI /XAML
 
 OS:
+<br/>
 Android,
 Windows,
 IOS

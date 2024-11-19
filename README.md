@@ -6,7 +6,14 @@ Square Matrix Multiplication
 
 ![Screenshot_2024_11_19-2](https://github.com/user-attachments/assets/b4055b48-b309-4a87-9402-b44a114f9dfc)
 
+Platform:
+Net MAUI /XAML
 
+OS:
+
+Android
+Windows
+IOS
 
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"

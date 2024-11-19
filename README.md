@@ -4352,20 +4352,19 @@ clear=all style='page-break-before:auto;mso-break-type:section-break'>
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal><span style='font-size:20.0pt;line-height:107%;font-family:
-"Arial Black",sans-serif'>Algorithm<o:p></o:p></span></p>
+"Arial Black",sans-serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:16.0pt;line-height:107%;font-family:
-"Arial Black",sans-serif'>Name<o:p></o:p></span></p>
+"Arial Black",sans-serif'><o:p></o:p></span></p>
 
-<p class=MsoNormal><span class=SpellE>MultiplyMatrix</span></p>
+<p class=MsoNormal><span class=SpellE></span></p>
 
 <p class=MsoNormal><a name="_Hlk81748768"><span style='font-size:16.0pt;
-line-height:107%;font-family:"Arial Black",sans-serif'>Description <o:p></o:p></span></a></p>
+line-height:107%;font-family:"Arial Black",sans-serif'>Program Description: <o:p></o:p></span></a></p>
 
 <span style='mso-bookmark:_Hlk81748768'></span>
 
-<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'>Function for
-multiplying two matrices. This function takes two dimensional arrays which
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'> This program takes two dimensional arrays which
 represents the matrices and multiply them together. <span class=GramE>It</span>
 go’s through each column of the first matrix one row at a time while
 multiplying the columns with each matching row of the second matrix one column

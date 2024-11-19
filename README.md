@@ -1,6 +1,15 @@
 Square Matrix Multiplication
 ----------------------------------------------------------------------------------
 
+This program takes two dimensional arrays which
+represents the matrices and multiply them together. <span class=GramE>It</span>
+go’s through each column of the first matrix one row at a time while
+multiplying the columns with each matching row of the second matrix one column
+at a time and adding their products to the total. And add the totals to the
+corresponding cells of the new matrix and return the new matrix.
+
+
+
 ![Screenshot_2024_11_19-1](https://github.com/user-attachments/assets/72d2cb0b-144b-41ad-9ed7-33186906edec)
 
 
@@ -4367,8 +4376,7 @@ clear=all style='page-break-before:auto;mso-break-type:section-break'>
 
 <p class=MsoNormal><span class=SpellE></span></p>
 
-<p class=MsoNormal><a name="_Hlk81748768"><span style='font-size:16.0pt;
-line-height:107%;font-family:"Arial Black",sans-serif'>Program Description: <o:p></o:p></span></a></p>
+
 
 <span style='mso-bookmark:_Hlk81748768'></span>
 

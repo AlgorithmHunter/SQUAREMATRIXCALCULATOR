@@ -4384,7 +4384,7 @@ clear=all style='page-break-before:auto;mso-break-type:section-break'>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'> <o:p></o:p></span></p>
 
-<Strong>Installer:</strong><br/>
+<Strong>Android Installer:</strong><br/>
 https://github.com/AlgorithmHunter/AppExecutables/Matrixmultiplier-androidInstaller.zip
 </div>
 

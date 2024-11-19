@@ -1,4 +1,5 @@
-
+Square Matrix Multiplication
+----------------------------------------------------------------------------------
 
 ![Screenshot_2024_11_19-1](https://github.com/user-attachments/assets/72d2cb0b-144b-41ad-9ed7-33186906edec)
 
@@ -836,7 +837,7 @@ punctuation'>
 <div class=WordSection1>
 
 <p class=MsoNormal><span style='font-size:20.0pt;line-height:107%;font-family:
-"Arial Black",sans-serif'>Square Matrix Multiplication<o:p></o:p></span></p>
+"Arial Black",sans-serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 

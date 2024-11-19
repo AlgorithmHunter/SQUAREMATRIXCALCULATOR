@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp4.MainPage" Title="Square Matrix Multiplier">
+
+    <ScrollView HorizontalOptions="Center" >
+        <VerticalStackLayout 
+            Spacing="10"
+            
+            VerticalOptions="Center"  x:Name="ContainerStackLayout" HorizontalOptions="Center" >
+    
+                <Grid  HorizontalOptions="Start"  Margin="4,0,0,0" Padding="0,4" AnchorX="45" >
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70">
+                            
+                        </ColumnDefinition>
+                        <ColumnDefinition Width="130">
+
+                        </ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                <Label  VerticalOptions="Center"  Margin="4,0,0,0" Grid.Column="1" Grid.Row="1">Select Matrice Size</Label>
+                <Stepper Grid.Column="0"  x:Name="StepperA" Grid.Row="0"  Minimum="0" Maximum="10" ValueChanged="Stepper_ValueChanged" Increment="1" MinimumHeightRequest="40" MinimumWidthRequest="40" />
+           
+            </Grid>
+
+            <Grid  x:Name="InputMatrixContainer">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*">
+
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="50*">
+
+                    </ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*">
+                        
+                    </RowDefinition>
+                    <RowDefinition  Height="*" >
+
+                    </RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid x:Name="MatrixA"  Grid.Column="0" Grid.Row="0"   HorizontalOptions="Center" IsVisible="False"  >
+
+                </Grid>
+                <Grid x:Name="MatrixB"   Grid.Column="1" Grid.Row="0"    HorizontalOptions="Center" IsVisible="False"  >
+
+                </Grid>
+
+            </Grid>
+            
+            <Grid x:Name="MatrixC"  HorizontalOptions="Center" IsVisible="False"  >
+
+            </Grid>
+
+            <Button Text="Calculate" AutomationProperties.IsInAccessibleTree="true"  Margin="0,4,0,4"  AutomationProperties.HelpText="Tap to toggle the activity indicator"   Clicked="Button_Clicked" HorizontalOptions="Center" />
+
+           
+
+
+        </VerticalStackLayout>
+
+      
+    </ScrollView>
+  
+</ContentPage>

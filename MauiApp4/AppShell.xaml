@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp4.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp4"
+    Shell.FlyoutBehavior="Disabled" >
+    <TabBar FlyoutDisplayOptions="AsMultipleItems" IsVisible="True" IsEnabled="True" >
+        <Tab Title="Cats"
+Icon="cat.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+  
+    </TabBar>
+ <!--   <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+HeightRequest="200">
+                <Image Aspect="AspectFill"
+Source="store.jpg"
+Opacity="0.6" />
+                <Label Text="Animals"
+TextColor="White"
+FontAttributes="Bold"
+HorizontalTextAlignment="Center"
+VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    <ShellContent
+        Title="Matrix Calculator"
+       
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" >
+        <Tab Title="Square"
+Icon="paw.png">
+            <ShellContent Title="Cats"
+Icon="cat.png"
+ContentTemplate="{DataTemplate local:MainPage}" />
+  
+        </Tab>
+        <ShellContent Title="Rectengular"
+Icon="monkey.png"
+ContentTemplate="{DataTemplate local:NewPage1}" />
+    
+    </FlyoutItem>    <Shell.FlyoutFooterTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+HeightRequest="200">
+                <Image Aspect="AspectFill"
+Source="store.jpg"
+Opacity="0.6" />
+                <Label Text="Animals"
+TextColor="White"
+FontAttributes="Bold"
+HorizontalTextAlignment="Center"
+VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutFooterTemplate>-->
+    
+    
+</Shell>

@@ -770,9 +770,7 @@ div.WordSection3
 div.WordSection4
 	{page:WordSection4;}
 -->
-![Screenshot_2024_11_19-1](https://github.com/user-attachments/assets/0e3c51d9-dab1-450d-876a-d441ebd42900)
 
-![Screenshot_2024_11_19-2](https://github.com/user-attachments/assets/706c7480-c0e7-4ea3-ae63-49124339904a)
 
  table.MsoNormalTable
 	{mso-style-name:"Table Normal";

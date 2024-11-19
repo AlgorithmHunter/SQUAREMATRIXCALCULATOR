@@ -11,8 +11,8 @@ Net MAUI /XAML
 
 OS:
 
-Android
-Windows
+Android,
+Windows,
 IOS
 
 <html xmlns:v="urn:schemas-microsoft-com:vml"

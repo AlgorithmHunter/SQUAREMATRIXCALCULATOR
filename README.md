@@ -13,7 +13,7 @@
   <o:Created>2021-09-05T15:24:00Z</o:Created>
   <o:LastSaved>2021-09-05T15:24:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>384</o:Words>
+  <o:Words>384</o:Words> 
   <o:Characters>2190</o:Characters>
   <o:Lines>18</o:Lines>
   <o:Paragraphs>5</o:Paragraphs>

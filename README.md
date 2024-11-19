@@ -8,7 +8,8 @@ multiplying the columns with each matching row of the second matrix one column
 at a time and adding their products to the total. And add the totals to the
 corresponding cells of the new matrix and return the new matrix.
 
-
+Sample Images
+----------------------------------------------------------------------------------
 
 ![Screenshot_2024_11_19-1](https://github.com/user-attachments/assets/72d2cb0b-144b-41ad-9ed7-33186906edec)
 

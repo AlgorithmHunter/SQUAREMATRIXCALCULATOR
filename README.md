@@ -4372,64 +4372,8 @@ line-height:107%;font-family:"Arial Black",sans-serif'>Program Description: <o:p
 
 <span style='mso-bookmark:_Hlk81748768'></span>
 
-<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'> This program takes two dimensional arrays which
-represents the matrices and multiply them together. <span class=GramE>It</span>
-go’s through each column of the first matrix one row at a time while
-multiplying the columns with each matching row of the second matrix one column
-at a time and adding their products to the total. And add the totals to the
-corresponding cells of the new matrix and return the new matrix.<o:p></o:p></span></p>
+<p class=MsoNormal><span style='font-size:12.0pt;line-height:107%'> <o:p></o:p></span></p>
 
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<p class=MsoNormal>int **<span class=SpellE><span class=GramE>MultiplyMatrix</span></span><span
-class=GramE>(</span>int ** matrix1, int ** matrix2, int size)</p>
-
-<p class=MsoNormal>{</p>
-
-<p class=MsoNormal><span style='mso-tab-count:1'>                </span>int ** <span
-class=SpellE>newMatrix</span> = <span class=SpellE>AllocateArray</span>(size<span
-class=GramE>);</span></p>
-
-<p class=MsoNormal><span style='mso-tab-count:1'>                </span><span
-class=SpellE><span class=GramE>InitializeArray</span></span><span class=GramE>(</span><span
-class=SpellE>newMatrix</span>, size);</p>
-
-<p class=MsoNormal><span style='mso-tab-count:1'>                </span>for
-(int <span class=SpellE>i</span> = 0; <span class=SpellE>i</span> &lt; size; <span
-class=SpellE>i</span>++)</p>
-
-<p class=MsoNormal><span style='mso-tab-count:1'>                </span>{</p>
-
-<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>for
-(int c = 0; c &lt; size; <span class=SpellE>c++</span>)</p>
-
-<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>{</p>
-
-<p class=MsoNormal><span style='mso-tab-count:3'>                                                </span>int
-Total = <span class=GramE>0;</span></p>
-
-<p class=MsoNormal><span style='mso-tab-count:3'>                                                </span>for
-(int j = 0; j &lt; size; <span class=SpellE>j++</span>)</p>
-
-<p class=MsoNormal><span style='mso-tab-count:3'>                                                </span>{</p>
-
-<p class=MsoNormal><span style='mso-tab-count:4'>                                                                </span>Total
-+= matrix1[<span class=SpellE>i</span>][j] * matrix2[j][c<span class=GramE>];</span></p>
-
-<p class=MsoNormal><span style='mso-tab-count:3'>                                                </span>}</p>
-
-<p class=MsoNormal><span style='mso-tab-count:3'>                                                </span><span
-class=SpellE>newMatrix</span>[<span class=SpellE>i</span>][c] = <span
-class=GramE>Total;</span></p>
-
-<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>}</p>
-
-<p class=MsoNormal><span style='mso-tab-count:1'>                </span>}</p>
-
-<p class=MsoNormal><span style='mso-tab-count:1'>                </span>return <span
-class=SpellE><span class=GramE>newMatrix</span></span><span class=GramE>;</span></p>
-
-<p class=MsoNormal>}</p>
 
 </div>
 
